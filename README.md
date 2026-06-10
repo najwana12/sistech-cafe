@@ -18,22 +18,6 @@ Website Sistech Cafe - Local Coffee brewed by Extraordinary Women in Indonesia.
 | Level 4 | Pagination (Menu, About Us, Promo, Login pages) | ✅ |
 | Compulsory | Deployment (Vercel) | Deploy sendiri |
 
-## Cara Menjalankan
-
-### 1. Install dependencies
-```bash
-npm install
-```
-
-### 2. Jalankan development server
-```bash
-npm run dev
-```
-
-### 3. Buka di browser
-```
-http://localhost:3000
-```
 
 ## Struktur Folder
 
@@ -57,17 +41,3 @@ src/
     ├── Navbar.module.css
     ├── Footer.tsx             # Shared Footer component
     └── Footer.module.css
-```
-
-## Deploy ke Vercel
-
-1. Push project ke GitHub
-2. Buka [vercel.com](https://vercel.com) dan login
-3. Klik **"New Project"** → Import repository GitHub kamu
-4. Klik **Deploy** — selesai!
-
-Vercel otomatis mendeteksi Next.js dan melakukan konfigurasi secara otomatis.
-
----
-
-Made with Love by [your name] 💕

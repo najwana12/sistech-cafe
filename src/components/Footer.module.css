@@ -1,0 +1,34 @@
+.footer {
+  background-color: #FF69A5;
+  padding: 28px 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.iconLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  opacity: 0.95;
+}
+
+.iconLink:hover {
+  transform: translateY(-3px);
+  opacity: 1;
+}
+
+.credit {
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 400;
+  opacity: 0.95;
+}
